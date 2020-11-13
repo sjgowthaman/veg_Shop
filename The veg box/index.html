@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>The VegBox</title>
+  <!-- css script -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- bootstrap sript -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+ <!-- google font -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+  <!-- font awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>"
+</head>
+
+<body>
+  <section id="header">
+    <nav class="navbar navbar-dark navbar-expand-lg">
+     <a class="navbar-brand" href="#">
+       <img src="images/basket.png" alt="basket.img">
+      The Veg Shop <br>உங்களுக்கான காய்கறிகள்</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#"> <img src="images/buy.png" alt="my cart.img">My Cart</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><img src="images/selected.png" alt="account.img">Account</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#pricing"><img src="images/money.png" alt="money.img">Price List</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+  </section>
+
+  <section id="title">
+ <div class="container">
+   <div class="row">
+     <div class="col-lg-6 col-md-4 col-sm-3">
+       <h1 style="font-size:3rem; color:green;">Eat Fresh <br>Stay Healthy.</h1>
+       <p>Hygiene Vegetable <br>சுத்தமான காய்கறிகள் <br>மிக குறைந்த விலையில்!</p>
+       <button type="button" class="btn btn-success btn-lg">BUY</button>
+       <div class="hide">வாங்க!</div>
+     </div>
+   <div class="col-lg-6 col-md-4 col-sm-3">
+     <img class="veg-basket" src="images/vegetable-photos.png" alt="veg-basket">
+   </div>
+ </div>
+
+
+  </section>
+
+
+  <!-- Features -->
+
+  <section id="features">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="3000">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h4>Easy to Buy At Low Price.</h4>
+        <p>குறைந்த விலையில் வாங்க எளிதானது.</p>
+        </div>
+        <div class="carousel-item">
+           <h4>Quality Product</h4>
+        <p>தரமான தயாரிப்பு.</p>
+        </div>
+        <div class="carousel-item">
+            <h4>Cash On Delivery.</h4>
+        <p>டெலிவரி போது பணம் செலுத்தினால் போதும்.</p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Pricing -->
+
+  <section id="pricing">
+
+    <div class=row>
+    <div class="card-column col-lg-4 col-md-3 col-sm-6">
+        <div class="card">
+          <div class="card-header">
+          tomato
+       </div>
+       <div class="card-body">
+         <img class="vegetables"src="images/1910.jpg" alt="tomato"><br>
+          1kg=RS.25 <br>
+          <button type="button">add to cart</button>
+       </div>
+    </div>
+  </div>
+  <div class="card-column col-lg-4 col-md-3 col-sm-6">
+   <div class="card">
+      <div class="card-header">
+          small onion
+      </div>
+      <div class="card-body">
+        <img class="vegetables"src="images/8289.jpg" alt="small onion"><br>
+          1kg=RS.25 <br>
+          <button type="button">add to cart</button>
+      </div>
+   </div>
+  </div>
+  <div class="card-column col-lg-4 col-md-3 col-sm-6">
+      <div class="card">
+      <div class="card-header">
+          onion
+      </div>
+      <div class="card-body">
+        <img class="onion"src="images/31686.jpg" alt="onion"><br>
+          1kg=RS.25 <br>
+          <button type="button">add to cart</button>
+      </div>
+  </div>
+  </div>
+  <div class="card-column col-lg-4 col-md-3 col-sm-6">
+      <div class="card">
+      <div class="card-header">
+          carrot
+      </div>
+      <div class="card-body">
+        <img class="vegetables"src="images/carrot.png" alt="carrot"><br>
+          1kg=RS.25 <br>
+          <button type="button">add to cart</button>
+      </div>
+  </div>
+  </div>
+
+  </div>
+
+  </section>
+
+  <!-- Footer -->
+
+  <footer id="footer">
+    <i class="social-icon fas fa-envelope fa-5x"></i>
+    <i class="social-icon fas fa-phone fa-5x"></i>
+    <p class="footer-para">© Copyright 2020 The VegShop</p>
+
+  </footer>
+
+
+</body>
+
+</html>
